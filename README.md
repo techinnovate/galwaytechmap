@@ -5,6 +5,8 @@
   * Each company image and caption is hyperlinked to its corresponding LinkedIn page.
   * Official company logos from those LinkedIn pages are used where available.
   * PDFs exported from Google Slides will therefore also have hyperlinks to each LinkedIn page.
+  * Can use ImageMagick to make PNGs automagically:
+    * ```magick convert -density 1200 202605271500_iso216.pdf -resize 4961 -gravity Center -extent 4961x3508 202605271500_iso216.png```
 * 📋 [Need a sheet with all those listed?](https://docs.google.com/spreadsheets/d/11_Ie9gvUUqaqZs1ImznMhHyqFTT2SnWWEX2D7EA50cE/edit)
   * We use the above slide to auto-generate an alphabetically sorted list of companies in Google Sheets.
 * ⌨️ [Looking for the Apps Script code used to auto-generate the list?](202605271500.gs)

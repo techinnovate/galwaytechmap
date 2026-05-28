@@ -1,15 +1,15 @@
 # Galway Tech Map
 
-* 🧑‍💻 [Want the slide we used to build it?](https://bit.ly/gtmslide)
+* 🧑‍💻 [Want the slide we used to build it?](https://docs.google.com/presentation/d/1TGWQGaUPxwMPkUYJJhXm_jld7YkmVPBeZRUnpTqWo-s/edit)
   * Full instructions are given as regards images, text, sizes, exporting, etc. on the last hidden slide.
   * Each company image and caption is hyperlinked to its corresponding LinkedIn page.
   * Official company logos from those LinkedIn pages are used where available.
   * PDFs exported from Google Slides will therefore also have hyperlinks to each LinkedIn page.
-* 📋 [Need a sheet with all those listed?](https://bit.ly/gtmsheet)
+* 📋 [Need a sheet with all those listed?](https://docs.google.com/spreadsheets/d/11_Ie9gvUUqaqZs1ImznMhHyqFTT2SnWWEX2D7EA50cE/edit)
   * We use the above slide to auto-generate an alphabetically sorted list of companies in Google Sheets.
 * ⌨️ [Looking for the Apps Script code used to auto-generate the list?](202605271500.gs)
   * The hyperlinked captions in the map are used by this code to generate the list of companies.
-* 💡 [Got updates?](https://bit.ly/gtmupdate)
+* 💡 [Got updates?](https://docs.google.com/forms/d/e/1FAIpQLSeg-ztZdiwbQTgTwVitEZQtrM8S3Rghh8fuWGTR0_eRtPydsQ/viewform)
   * Like a wedding thank you speech, someone invariably gets left out... Sorry!
 
 ## History

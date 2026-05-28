@@ -1,10 +1,16 @@
 # Galway Tech Map
 
 * 🧑‍💻 [Want the slide we used to build it?](https://bit.ly/gtmslide)
-  * The instructions are on the last hidden slide.
+  * Full instructions are given as regards images, text, sizes, exporting, etc. on the last hidden slide.
+  * Each company image and caption is hyperlinked to its corresponding LinkedIn page.
+  * Official company logos from those LinkedIn pages are used where available.
+  * PDFs exported from Google Slides will therefore also have hyperlinks to each LinkedIn page.
 * 📋 [Need a sheet with all those listed?](https://bit.ly/gtmsheet)
+  * We use the above slide to auto-generate an alphabetically sorted list of companies in Google Sheets.
 * ⌨️ [Looking for the Apps Script code used to auto-generate the list?](202605271500.gs)
-* 💡 [Got suggested updates?](https://bit.ly/gtmupdate)
+  * The hyperlinked captions in the map are used by this code to generate the list of companies.
+* 💡 [Got updates?](https://bit.ly/gtmupdate)
+  * Like a wedding thank you speech, someone invariably gets left out... Sorry!
 
 ## History
 
@@ -14,9 +20,11 @@
     * Art direction by [Chelsea O’Connor](https://cargocollective.com/chelseyportfolio/).
 * The [first Galway Tech Map](https://technologyvoice.wordpress.com/2014/05/27/galway-is-the-san-francisco-to-dublins-silicon-valley/) was published on 27 May 2014.
 * The [second Galway Tech Map](https://technologyvoice.wordpress.com/2015/05/27/galway-tech-map-version-2/) was published on 27 May 2015.
-  * You can find the [old](old) versions on GitHub, including the Adobe Illustrator files.
-  * The main font used was the [Woodcutter Simple Font](https://www.dafont.com/woodcutter-simple-font.font), see the [wiki](https://github.com/techinnovate/galwaytechmap/wiki) for more.
+  * You can find the [old](old) versions on GitHub, including the Adobe Illustrator files for reuse.
+  * The main font used was the [Woodcutter Simple Font](https://www.dafont.com/woodcutter-simple-font.font); see the [wiki](https://github.com/techinnovate/galwaytechmap/wiki) for more details.
 * The [third Galway Tech Map](https://www.linkedin.com/feed/update/urn:li:activity:7465401528900681730/) was published on 27 May 2026.
+  * Now using Google Slides instead of Adobe Illustrator, so easier to edit and update.
+  * Anyone can copy this slide and make a variant (new companies, new sectors).
   * The main font used is [Schoolbell](https://fonts.google.com/specimen/Schoolbell) (bold for captions and title, regular in other places).
 
 ## The Count 🧛🏻‍♂️
@@ -25,4 +33,6 @@ If you have pdfimages installed, you can count the number of companies on the ma
 ```
 pdfimages -list 202605271500_iso216.pdf |grep jpeg |grep 200 |wc -l
 ```
-This uses the fact that the embedded icons are all 200x200px jpeg files (as we reused logos from each company's LinkedIn page).
+This uses the fact that the embedded company images are 200x200px jpeg files, as we reused logos from each company's LinkedIn page, or recreated 200x200px jpegs where the quality was too low or the company LinkedIn page had no logo.
+
+Taking away hubs, subsea cables, subsidiaries, etc., it is well over 200.
